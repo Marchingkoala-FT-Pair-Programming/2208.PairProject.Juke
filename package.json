@@ -1,7 +1,7 @@
 {
   "name": "juke",
   "version": "1.0.0",
-  "description": "",
+  "description": "## Setup",
   "main": "index.js",
   "scripts": {
     "start": "npm run start-server & npm run build-watch",
@@ -28,5 +28,17 @@
     "react-dom": "^18.2.0",
     "webpack": "^4.44.1",
     "webpack-cli": "^3.3.12"
-  }
+  },
+  "bin": {
+    "juke": "bin/seed.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Marchingkoala-FT-Pair-Programming/2208.PairProject.Juke.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/Marchingkoala-FT-Pair-Programming/2208.PairProject.Juke/issues"
+  },
+  "homepage": "https://github.com/Marchingkoala-FT-Pair-Programming/2208.PairProject.Juke#readme"
 }
